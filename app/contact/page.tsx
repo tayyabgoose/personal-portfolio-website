@@ -19,9 +19,6 @@ export default function Page() {
           tayyab.t450@gmail.com
         </a>
       </p>
-      <p>
-        phone - <a href="tel:+923034064023" target="_blank" rel="noopener noreferrer">+92 303 4064023</a>
-      </p>
     </section>
   );
 }
