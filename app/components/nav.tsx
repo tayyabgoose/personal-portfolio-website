@@ -7,9 +7,6 @@ const navItems = {
   "/work": {
     name: "work",
   },
-  // "/creative": {
-  //   name: "creative",
-  // },
   // "/blog": {
   //   name: "blog",
   // },
