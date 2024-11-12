@@ -19,6 +19,7 @@ export default function Page() {
           tayyab.t450@gmail.com
         </a>
       </p>
+      <p>book a call - <a href="https://cal.com/tayyab" target="_blank" rel="noopener noreferrer">here!</a></p>
     </section>
   );
 }

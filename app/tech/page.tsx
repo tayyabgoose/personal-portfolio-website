@@ -27,7 +27,7 @@ export default function Page() {
         <h1 className="mb-1 text-2xl font-semibold tracking-tighter">
           Weather App
         </h1>
-        <ul className="mb-1 font-sm flex flex-col space-x-0 space-y-2 text-neutral-800 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-100">
+        <ul className="mt-2 mb-2 font-sm flex flex-col gap-1 text-neutral-800 md:flex-row md:gap-4 dark:text-neutral-100">
           <li>
             <a
               className="flex items-center transition-all hover:text-neutral-950 dark:hover:text-neutral-300"
@@ -51,8 +51,14 @@ export default function Page() {
             </a>
           </li>
         </ul>
-        <p>Tech Stack: React, Tailwind CSS, OpenWeatherMap API</p>
-        <p className="mt-1">
+        <p className="mb-1">
+          <b>Domain:</b> Web Development
+        </p>
+        <p className="mb-1">
+          <b>Technologies Used:</b> React, TypeScript, Tailwind CSS,
+          OpenWeatherMap API
+        </p>
+        <p className="mb-1">
           A responsive Web App that fetches the weather for the next 4 days.
         </p>
       </section>
