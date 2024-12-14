@@ -1,19 +1,4 @@
-function ArrowIcon() {
-  return (
-    <svg
-      width="12"
-      height="12"
-      viewBox="0 0 12 12"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z"
-        fill="currentColor"
-      />
-    </svg>
-  );
-}
+import ArrowIcon from "app/components/arrowicon";
 
 export const metadata = {
   title: "Tech Portfolio - Muhammad Tayyab",
@@ -62,7 +47,7 @@ export default function Page() {
           <b>Description:</b> A responsive Web App that fetches the weather for
           the next 4 days.
         </p>
-        <h1 className="mb-1 mt-5 text-2xl font-semibold tracking-tighter">
+        <h1 className="mb-1 mt-8 text-2xl font-semibold tracking-tighter">
           MarketMingle
         </h1>
         <ul className="mt-2 mb-2 font-sm flex flex-col gap-1 text-neutral-800 md:flex-row md:gap-4 dark:text-neutral-100">

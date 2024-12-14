@@ -12,11 +12,11 @@ export default function Page() {
       <p>
         email -{" "}
         <a
-          href="mailto:tayyab.t450@gmail.com"
+          href="mailto:tayyab@pixeloose.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          tayyab.t450@gmail.com
+          tayyab@pixeloose.com
         </a>
       </p>
       <p>book a call - <a href="https://cal.com/tayyab" target="_blank" rel="noopener noreferrer">here!</a></p>
