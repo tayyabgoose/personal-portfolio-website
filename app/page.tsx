@@ -12,7 +12,7 @@ export default function Page() {
           {`I'm a Computer Science student at FAST-NUCES Lahore. My interests lie in Frontend Development and UI/UX Design.`}
         </p>
         <p className="mb-4">{`Besides the nerd in me, I really enjoy taking photos in my free time.`}</p>
-        <div className="my-8">{/* <BlogPosts /> */}</div>
+        {/* <div className="my-8"><BlogPosts /></div> */}
       </section>
     </>
   );
