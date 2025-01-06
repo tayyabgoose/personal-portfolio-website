@@ -8,6 +8,12 @@ export const metadata = {
 export default function Page() {
   return (
     <>
+      {/* <section>
+        <h1>Services</h1>
+      </section>
+      <section>
+        <h1>Projects</h1>
+      </section> */}
       <section>
         <h1 className="mb-1 text-2xl font-semibold tracking-tighter">
           Weather App
