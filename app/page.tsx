@@ -9,9 +9,78 @@ export default function Page() {
           Muhammad Tayyab
         </h1>
         <p className="mb-4">
-          {`I'm a Computer Science student at FAST-NUCES Lahore. My interests lie in Frontend Development and UI/UX Design.`}
+          &gt; Currently pursuing Frontend Development and Design.
         </p>
-        <p className="mb-4">{`Besides the nerd in me, I really enjoy taking photos in my free time.`}</p>
+        <p className="mb-4">
+          Have dabbled with{" "}
+          <a
+            href="https://tayyab.dev/unsplash"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:font-bold"
+          >
+            photography
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://tayyab.dev/instagram"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:font-bold"
+          >
+            pixel art
+          </a>{" "}
+          in the past.
+        </p>
+        <p className="mb-4">
+          Hobbies include{" "}
+          <a
+            href="https://www.strava.com/athletes/130308027"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            running 🏃
+          </a>{" "}
+          (from my problems), opening a dozen{" "}
+          <a href="https://arc.net" target="_blank" rel="noopener noreferrer">
+            browser
+          </a>{" "}
+          tabs, and obsessing over minor details.
+        </p>
+        <section className="flex gap-2.5">
+          <a
+            href="https://react.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-neutral-200"
+          >
+            <div className="p-2 bg-gray-800 rounded-md text-sm">React</div>
+          </a>
+          <a
+            href="https://nextjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-neutral-200"
+          >
+            <div className="p-2 bg-gray-800 rounded-md text-sm">Next.js</div>
+          </a>
+          <a
+            href="https://figma.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-neutral-200"
+          >
+            <div className="p-2 bg-gray-800 rounded-md text-sm">Figma</div>
+          </a>
+          <a
+            href="https://framer.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-neutral-200"
+          >
+            <div className="p-2 bg-gray-800 rounded-md text-sm">Framer</div>
+          </a>
+        </section>
         {/* <div className="my-8"><BlogPosts /></div> */}
       </section>
     </>
