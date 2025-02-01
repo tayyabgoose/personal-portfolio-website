@@ -9,7 +9,7 @@ export default function Page() {
           Muhammad Tayyab
         </h1>
         <p className="mb-4">
-          &gt; Currently pursuing Frontend Development and Design.
+          &gt; Currently pursuing <b>Frontend Development</b> and <b>Design</b>.
         </p>
         <p className="mb-4">
           Have dabbled with{" "}
@@ -17,7 +17,7 @@ export default function Page() {
             href="https://tayyab.dev/unsplash"
             target="_blank"
             rel="noopener noreferrer"
-            className="underline hover:font-bold"
+            className="underline hover:font-medium"
           >
             photography
           </a>{" "}
@@ -26,7 +26,7 @@ export default function Page() {
             href="https://tayyab.dev/instagram"
             target="_blank"
             rel="noopener noreferrer"
-            className="underline hover:font-bold"
+            className="underline hover:font-medium"
           >
             pixel art
           </a>{" "}
@@ -48,13 +48,10 @@ export default function Page() {
           tabs, and obsessing over minor details.
         </p>
         <section className="flex gap-2.5">
-          <a
-            href="https://react.dev"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-neutral-200"
-          >
-            <div className="p-2 bg-gray-800 rounded-md text-sm">React</div>
+          <a href="https://react.dev" target="_blank" rel="noopener noreferrer">
+            <div className="p-2 bg-gray-800 text-white hover:text-neutral-200 rounded-md text-sm">
+              React
+            </div>
           </a>
           <a
             href="https://nextjs.org"
@@ -62,7 +59,9 @@ export default function Page() {
             rel="noopener noreferrer"
             className="hover:text-neutral-200"
           >
-            <div className="p-2 bg-gray-800 rounded-md text-sm">Next.js</div>
+            <div className="p-2 bg-gray-800 text-white hover:text-neutral-200 rounded-md text-sm">
+              Next.js
+            </div>
           </a>
           <a
             href="https://figma.com"
@@ -70,7 +69,9 @@ export default function Page() {
             rel="noopener noreferrer"
             className="hover:text-neutral-200"
           >
-            <div className="p-2 bg-gray-800 rounded-md text-sm">Figma</div>
+            <div className="p-2 bg-gray-800 text-white hover:text-neutral-200 rounded-md text-sm">
+              Figma
+            </div>
           </a>
           <a
             href="https://framer.com"
@@ -78,7 +79,9 @@ export default function Page() {
             rel="noopener noreferrer"
             className="hover:text-neutral-200"
           >
-            <div className="p-2 bg-gray-800 rounded-md text-sm">Framer</div>
+            <div className="p-2 bg-gray-800 text-white hover:text-neutral-200 rounded-md text-sm">
+              Framer
+            </div>
           </a>
         </section>
         {/* <div className="my-8"><BlogPosts /></div> */}
