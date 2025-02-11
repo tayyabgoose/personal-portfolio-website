@@ -9,7 +9,7 @@ export default function Page() {
           Muhammad Tayyab
         </h1>
         <p className="mb-4">
-          &gt; Currently pursuing <b>Frontend Development</b> and <b>Design</b>.
+          Currently pursuing <b>Frontend Development</b> and <b>Design</b>.
         </p>
         <p className="mb-4">
           Have dabbled with{" "}
