@@ -12,6 +12,17 @@ export default function Page() {
           Currently pursuing <b>Frontend Development</b> and <b>Design</b>.
         </p>
         <p className="mb-4">
+          👨‍💻 Building{" "}
+          <a
+            href="https://www.raseed.shop/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:font-medium"
+          >
+            raseed.shop
+          </a>
+        </p>
+        <p className="mb-4">
           Have dabbled with{" "}
           <a
             href="https://tayyab.dev/unsplash"
