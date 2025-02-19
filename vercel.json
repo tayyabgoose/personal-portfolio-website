@@ -7,6 +7,10 @@
       "destination": "/resume.pdf"
     },
     {
+      "source": "/resume-pm",
+      "destination": "/resume - PM.pdf"
+    },
+    {
       "source": "/calendly",
       "destination": "https://calendly.com/tayyabgoose"
     },
